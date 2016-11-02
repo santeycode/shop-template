@@ -23,22 +23,28 @@ body:hover:after {
 }
 .top-bar {
     background: #1d1a1a;
+    line-height: 2.3;
 }
 .top-bar-logo {
-    line-height: 2.3;
     padding: 9px 153px 0 0;
     text-align: center;
 }
 .top-bar-search {
     box-sizing: border-box;
-    line-height: 2.3;
-    padding: 6px 7px 0 0;
+    padding: 6px 10px 0 0;
     text-align: right;
-    margin-right: 15px;
 }
 .top-bar-login {
-    line-height: 2.8;
-    background: #ebe7df;
-    padding-left: 24px;
-    max-width: 11%;
+    padding: 4px 0 0 36px;
+}
+@media (max-width: 750px) {
+    .top-bar-logo {
+        padding-left: 30px;
+    }
+    .top-bar-search {
+        padding-right: 20px;
+    }
+    .top-bar-login {
+        padding-left: 0px;
+    }
 }
