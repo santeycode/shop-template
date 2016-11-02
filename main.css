@@ -63,6 +63,9 @@ body:hover:after {
 .top-pane-wrapper img {
     padding-right: 40px;
 }
+.counter img {
+    float: right;
+}
 @media (max-width: 750px) {
     .top-bar-name {
         display: block;
