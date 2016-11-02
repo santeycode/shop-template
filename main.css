@@ -18,33 +18,64 @@ body:hover:after {
     display: none;
 }
 .container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .top-bar {
     background: #1d1a1a;
-    line-height: 2.3;
 }
-.top-bar-logo {
-    padding: 9px 153px 0 0;
-    text-align: center;
+.top-bar-name ,.top-bar-wrapper {
+    display: inline-block;
 }
-.top-bar-search {
-    box-sizing: border-box;
-    padding: 6px 10px 0 0;
-    text-align: right;
+.top-bar-name {
+    line-height: 15px;
+    padding: 12px 129px;
+    float: left;
 }
-.top-bar-login {
-    padding: 4px 0 0 36px;
+.top-bar-wrapper {
+    display: inline-block;
+    float: right;
+    line-height: 15px;
+    padding-right: 136px
 }
-@media (max-width: 750px) {
-    .top-bar-logo {
-        padding-left: 30px;
+.top-bar-wrapper img {
+    padding: 14px 20px;
+}
+.container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.top-pane {
+    background: #fff;
+}
+.top-pane-wrapper ,.top-pane-wrapper li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top-pane-wrapper {
+    display: inline-block;
+    padding: 22px 153px;
+    line-height: 0.7;
+}
+.top-pane-wrapper img {
+    padding-right: 40px;
+}
+@media (max-width: 700px) {
+    .top-bar-name {
+        display: block;
+        text-align: center;
+        float: none;
     }
-    .top-bar-search {
-        padding-right: 20px;
+    .top-bar-wrapper {
+        display: block;
+        float: none;
+        text-align: center;
+        padding: 0;
     }
-    .top-bar-login {
-        padding-left: 0px;
+    .top-pane {
+        text-align: center;
     }
 }
