@@ -43,12 +43,12 @@ body:hover:after {
     padding-right: 136px;
 }
 .header-login {
-    padding-top: 10px;
+    padding-top: 14px;
     font-size: 12px;
     color: #7e7e7e;
 }
 .header-search {
-    padding-right: 36px;
+    padding-right: 30px;
     padding-top: 14px;
 }
 .container:after {
@@ -70,15 +70,36 @@ body:hover:after {
     font-weight: bold;
     display: inline-block;
     line-height: 0.7;
-    padding-right: 44px;
+    padding-right: 38px;
     color: #242424;
 }
 .menu-wrapper {
     padding: 21px 152px;
 }
+.right-menu {
+    float: right;
+    display: inline-block;
+}
+.container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.menu-wrapper a ,.right-menu-basket
+,.right-menu-star {
+    vertical-align: middle;
+    display: inline-block;
+}
+.right-menu {
+    padding: 22px 182px 0 0;
+}
+.right-menu-star {
+    padding-right: 70px;
+}
+/*#EDECE8*/
 @media (max-width: 750px) {
     body {
-        background-position: center top;
+        background-position: center 310px;
     }
     .header-yourLogo {
         display: block;
@@ -88,13 +109,14 @@ body:hover:after {
         padding: 11px 20px;
     }
     .header-yourLogo a {
+        padding: 30px 20px 10px;
         width: 50%;
     }
     .header-wrapper {
         display: block;
         float: none;
         text-align: center;
-        padding: 0;
+        padding: 10px 0;
     }
     .header-wrapper a {
         padding: 11px 20px;
@@ -103,14 +125,23 @@ body:hover:after {
     .menu-wrapper {
         text-align: center;
         display: block;
-        padding: 0 0 0 30px;
+        padding: 0;
     }
     .menu-wrapper li {
-        text-align: center;
-        padding: 4px;
+        width: 40%;
     }
     .menu-wrapper a {
         padding: 11px 20px;
         width: 50%;
+        line-height: 22px;
+    }
+    .right-menu {
+        text-align: center;
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+    .right-menu a {
+        padding: 10px 70px;
     }
 }
