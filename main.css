@@ -85,6 +85,10 @@ body:hover:after {
         text-align: center;
         float: none;
         padding: 6px 0 0;
+        padding: 11px 20px;
+    }
+    .header-yourLogo a {
+        width: 50%;
     }
     .header-wrapper {
         display: block;
@@ -93,7 +97,8 @@ body:hover:after {
         padding: 0;
     }
     .header-wrapper a {
-        padding: 20px;
+        padding: 11px 20px;
+        width: 50%;
     }
     .menu-wrapper {
         text-align: center;
@@ -105,6 +110,7 @@ body:hover:after {
         padding: 4px;
     }
     .menu-wrapper a {
-        padding: 15px;
+        padding: 11px 20px;
+        width: 50%;
     }
 }
