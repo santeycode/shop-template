@@ -2,6 +2,7 @@ body {
     margin: 0;
     height: 2342px;
     background: #ebe7df url("img/girl.png") no-repeat -68px 0;
+    font-family: sans-serif;
 }
 body:after {
     content: '';
@@ -91,6 +92,9 @@ body:hover:after {
         text-align: center;
         padding: 0;
     }
+    .header-wrapper a {
+        padding: 20px;
+    }
     .menu-wrapper {
         text-align: center;
         display: block;
@@ -99,5 +103,8 @@ body:hover:after {
     .menu-wrapper li {
         text-align: center;
         padding: 4px;
+    }
+    .menu-wrapper a {
+        padding: 15px;
     }
 }
