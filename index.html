@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Shop</title>
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/grid.css">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/main.css">
         <meta name="viewport" 
               content="width=device-width, user-scalable=no, initial-scale=1.0, 
               maximum-scale=1.0, minimum-scale=1.0">
@@ -13,52 +13,60 @@
     <body>
         <div class="top-bar">
             <div class="container">
-                <a class="top-bar-logo" href="#">Fooseshoes</a>
-                <a class="top-bar-search" href="#">
-                    <img src="img/search.png" alt="">
-                </a>
-                <a class="top-bar-login" href="#">Login or Register</a>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <a class="top-bar-logo" href="#">Fooseshoes</a>
+                    </div>
+                    <div class="right col-xs-12 col-md-6">
+                        <a class="top-bar-search" href="#"></a>
+                        <a class="top-bar-login" href="#"><span>Login</span> or <span>Register</span></a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="top-menu">
             <div class="container">
-                <ul class="top-menu-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pages</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-                <ul class="top-menu-actions">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
+                <div class="row">
+                    <div class="col-xs-12 col-md-9" style="background:green;">
+                        <ul class="top-menu-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="right col-xs-12 col-md-3">
+                        <ul class="top-menu-actions">
+                            <li><a href="#">g</a></li>
+                            <li><a href="#">g</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="top-pane">
             <div class="top-pane-slider-list">
                 <div class="top-pane-slider-item">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="img/girl.png" alt="">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <img src="img/girl.png" alt="">
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="top-pane-slider-price">
+                                $145,99
                             </div>
-                            <div class="col-6">
-                                <div class="top-pane-slider-price">
-                                    $145,99
-                                </div>
-                                <div class="top-pane-slider-title">
-                                    Pink Shoes 2013 Collection
-                                </div>
-                                <div class="top-pane-slider-desription">
-                                    Nunc non fermentum nunc. Sed ut ante 
+                            <div class="top-pane-slider-title">
+                                Pink Shoes 2013 Collection
+                            </div>
+                            <div class="top-pane-slider-desription">
+                                Nunc non fermentum nunc. Sed ut ante 
 eget leo tempor consequat sit amet eu orci. 
 Donec dignissim dolor eget..
 
-                                </div>
-                                <div class="top-pane-slider-actions"></div>
                             </div>
+                            <div class="top-pane-slider-actions"></div>
                         </div>
                     </div>
                 </div>
@@ -94,19 +102,23 @@ Donec dignissim dolor eget..
                 </div>
             </div>
         </div>
-        <div class="special row">
-                <div class="col-4">
-                    <img src="img/sale.png" alt="">
-                    <span>On Sale</span>
+        <div class="special">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <img src="img/sale.png" alt="">
+                        <span>On Sale</span>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <img src="img/special.png" alt="">
+                        <span>Special Offers</span>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <img src="img/must.png" alt="">
+                        <span>Must Have</span>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <img src="img/special.png" alt="">
-                    <span>Special Offers</span>
-                </div>
-                <div class="col-4">
-                    <img src="img/must.png" alt="">
-                    <span>Must Have</span>
-                </div>
+            </div>
         </div>
         <div class="catalog">
             <div class="container">
@@ -119,7 +131,7 @@ Donec dignissim dolor eget..
                     </div>
                 </div>
                 <div class="catalog-list row">
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="catalog-item">
                             <img src="img/Even.png" alt="">
                             <div class="catalog-item-bottom">
@@ -128,7 +140,7 @@ Donec dignissim dolor eget..
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="catalog-item">
                             <img src="img/.png" alt="">
                             <div>On Sale!</div>
@@ -138,7 +150,7 @@ Donec dignissim dolor eget..
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="catalog-item">
                             <img src="img/.png" alt="">
                             <div class="catalog-item-bottom">
@@ -163,7 +175,7 @@ Donec dignissim dolor eget..
                     </div>
                 </div>
                 <div class="catalog-list row">
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="catalog-item">
                             <img src="" alt="">
                             <div class="catalog-item-bottom">
@@ -172,7 +184,7 @@ Donec dignissim dolor eget..
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="catalog-item">
                             <img src="" alt="">
                             <div class="catalog-item-bottom">
@@ -181,7 +193,7 @@ Donec dignissim dolor eget..
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="catalog-item">
                             <img src="" alt="">
                             <div>Out of Stock</div>
@@ -199,7 +211,7 @@ Donec dignissim dolor eget..
         <div class="info">
             <div class="container">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-xs-12 col-md-3">
                         <div class="info-item">
                             <div class="info-title">
                                 Free Shipping
@@ -209,7 +221,7 @@ Donec dignissim dolor eget..
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-xs-12 col-md-3">
                         <div class="info-item">
                             <div class="info-title">
                                 Testimonials
@@ -220,7 +232,7 @@ Donec dignissim dolor eget..
                             <div class="info-author">- John Doe -</div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xs-12 col-md-6">
                         <div class="info-item">
                             <div class="info-title">Blog News</div>
                             <div class="info-news">
@@ -255,7 +267,7 @@ Donec dignissim dolor eget..
         <div class="bottom-pane">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="bottom-pane-item">
                             <div class="bottom-pane-title">
                                 Text Widget
@@ -265,7 +277,7 @@ Donec dignissim dolor eget..
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="bottom-pane-item">
                             <div class="bottom-pane-title">
                                 Twitter Widget
@@ -284,26 +296,26 @@ Donec dignissim dolor eget..
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="bottom-pane-item">
                             <div class="bottom-pane-title">Flickr Widget</div>
                             <div class="row">
-                                <div class="col-4">
+                                <div class="col-xs-12 col-md-4">
                                     <img src="" alt="">
                                 </div>
-                                <div class="col-4">
+                                <div class="col-xs-12 col-md-4">
                                     <img src="" alt="">
                                 </div>
-                                <div class="col-4">
+                                <div class="col-xs-12 col-md-4">
                                     <img src="" alt="">
                                 </div>
-                                <div class="col-4">
+                                <div class="col-xs-12 col-md-4">
                                     <img src="" alt="">
                                 </div>
-                                <div class="col-4">
+                                <div class="col-xs-12 col-md-4">
                                     <img src="" alt="">
                                 </div>
-                                <div class="col-4">
+                                <div class="col-xs-12 col-md-4">
                                     <img src="" alt="">
                                 </div>
                             </div>
@@ -311,12 +323,12 @@ Donec dignissim dolor eget..
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4">
                         <input type="text">
                         <button>Enter email for newsletter</button>
                     </div>
-                    <div class="col-4"></div>
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4"></div>
+                    <div class="col-xs-12 col-md-4">
                         <div class="bottom-pane-social-item bottom-pane-fb"></div>
                         <div class="bottom-pane-social-item bottom-pane-tw"></div>
                         <div class="bottom-pane-social-item bottom-pane-gp"></div>
@@ -329,13 +341,13 @@ Donec dignissim dolor eget..
         <div class="bottom-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-xs-12 col-md-4">
                         <div class="bottom-bar-copyright">
                             Copyright © Fooseshoes 2013. 
 Designed by EnzoLiVolti.
                         </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-xs-12 col-md-8">
                         <div class="bottom-bar-menu">
                             <a href="#">Home</a>/
                             <a href="#">Support</a>/
