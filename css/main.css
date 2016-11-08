@@ -1,6 +1,5 @@
 body {
     height: 2342px;
-    background: #ebe7df;
     font-family: sans-serif;
 }
 body:after {
@@ -84,7 +83,7 @@ ul {
 .top-menu-nav a {
     display: inline-block;
     line-height: 22px;
-    padding: 20px 22% 18px;
+    padding: 20px 22px 18px;
     color: #202020;
     border-left: 1px solid #F2F2F2;
 }
@@ -147,4 +146,17 @@ ul {
 }
 .top-menu-card span {
     background: #57C5A0;
+}
+.top-pane-slider-img {
+    min-height: 466px;
+    position: relative;
+}
+.top-pane-slider-img img {
+    position: absolute;
+    top: 0;
+    right: -40px;
+}
+.top-pane-slider-text {
+    position: relative;
+    z-index: 1;
 }
