@@ -157,6 +157,34 @@ ul {
     right: -40px;
 }
 .top-pane-slider-text {
+    display: inline-block;
     position: relative;
-    z-index: 1;
+    /*z-index: 1;*/
+}
+.top-pane-slider-text {
+    font-size: 0;
+    padding: 70px 30px;
+}
+.top-pane-slider-price {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+    margin-left: 10px;
+    background: #57C5A0;
+    padding: 27px 13px;
+}
+.top-pane-slider-title {
+    display: inline-block;
+    line-height: 1;
+    padding: 12px 280px 0 10px;
+    font-size: 40px;
+}
+.top-pane-slider-desription {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 62%;
+    padding: 9px 0px 0 10px;
 }
