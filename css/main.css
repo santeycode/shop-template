@@ -173,18 +173,22 @@ ul {
     color: #FFF;
     margin-left: 10px;
     background: #57C5A0;
-    padding: 27px 13px;
+    padding: 27px 16px 27px 10px;
 }
 .top-pane-slider-title {
-    display: inline-block;
+    max-width: 300px;
+    display: block;
     line-height: 1;
-    padding: 12px 280px 0 10px;
+    padding: 12px 10px 0 10px;
     font-size: 40px;
 }
 .top-pane-slider-desription {
-    display: inline-block;
+    display: block;
     font-size: 18px;
     line-height: 1.4;
-    max-width: 62%;
+    max-width: 350px;
     padding: 9px 0px 0 10px;
+}
+.top-pane-slider-actions {
+    
 }
