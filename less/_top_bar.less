@@ -10,20 +10,17 @@
         font-size: 28px;
         color: #57C5A0;
     }
-        .right {
-            text-align: right;
-            .top-bar-search:before {
-                content: '';
-                display: inline-block;
-                width: 14px;
-                height: 14px;
-                background: url('../img/search.png') no-repeat;
-            }
-            .top-bar-search {
-                    padding: 15px 23px 16px;
-                    display: inline-block;
-                }
+    .top-bar-search {
+        padding: 15px 23px 16px;
+        display: inline-block;
+        &:before {
+            content: '';
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background: url('../img/search.png') no-repeat;
         }
+    }
     .top-bar-login {
         box-sizing: border-box;
         display: inline-block;
@@ -36,7 +33,7 @@
         border-left: 2px solid #323232;
         border-right: 2px solid #323232;
     }
-        span {
-            text-transform: uppercase;
-        }
+    span {
+        text-transform: uppercase;
+    }
 }
