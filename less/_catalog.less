@@ -85,6 +85,9 @@
                 }
                 .catalog-item-actions {
                     display: inline-block;
+                    position: absolute;
+                    bottom: 0;
+                    right: 34px;
                     a {
                         vertical-align: top;
                         display: inline-block;
@@ -94,8 +97,8 @@
                             display: inline-block;
                             background-image: url('../img/actions.png');
                         }
-                        .catalog-item-actions-re {
-                            padding: 15px 10px 13px 12px;
+                        &.catalog-item-actions-re {
+                            padding: 15px 7px 13px;
                             background: #FFF;
                             &:before {
                                 width: 18px;
@@ -103,8 +106,8 @@
                                 background-position: 0 -3px;
                             }
                         }
-                        .catalog-item-actions-st {
-                            padding: 13px 10px 11px 13px;
+                        &.catalog-item-actions-st {
+                            padding: 13px 10px 11px;
                             background: #FFF;
                             &:before {
                                 width: 16px;
@@ -112,8 +115,8 @@
                                 background-position: -18px 0;
                             }
                         }
-                        .catalog-item-actions-ar {
-                            padding: 13px 11px 11px 13px;
+                        &.catalog-item-actions-ar {
+                            padding: 13px 20px 11px 10px;
                             background: #FFF;
                             &:before {
                                 width: 17px;
@@ -121,8 +124,8 @@
                                 background-position: -35px 0;
                             }
                         }
-                        .catalog-item-actions-ca {
-                            padding: 13px 10px 11px 13px;
+                        &.catalog-item-actions-ca {
+                            padding: 13px 0 11px;
                             background: #FFF;
                             &:before {
                                 width: 17px;
