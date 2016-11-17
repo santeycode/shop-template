@@ -84,6 +84,9 @@ module.exports = function(grunt){
       },
       html: {
         files: ['public/{,*/}*.html']
+      },
+      img: {
+        files: ['public/img/{,*/}*']
       }
     }
   });
