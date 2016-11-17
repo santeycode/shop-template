@@ -65,60 +65,36 @@
                 border: none;
             }
             .bottom-pane-social-item {
-                background: yellow;
                 text-align: right;
-                padding-top: 4px;
-                display: inline-block;
+                padding-right: 44px;
                 a {
-                    margin-right: 10px;
-                    padding: 0 10px;
+                    margin-right: 2px;
+                    padding: 0 3px;
                     vertical-align: top;
                     display: inline-block;
-                    background-image: url('../img/socialk.png') no-repeat;
-                    .bottom-pane-fb {
-                        background: #FFF;
-                        padding: 13px 10px;
-                        &:before {
-                            width: 9px;
-                            height: 20px;
-                            background-position: 0 0;
-                        }
+                    &:before {
+                        content: '';
+                        width: 36px;
+                        height: 36px;
+                        display: inline-block;
+                        background-image: url('../img/socialk.png');
+                        background-repeat: no-repeat;
+                        background-color: #2E2E2E;
                     }
-                    .bottom-pane-tw {
-                        padding: 13px 10px 11px 13px;
-                        background: #FFF;
-                        &:before {
-                            width: 19px;
-                            height: 16px;
-                            background-position: 0 0;
-                        }
+                    &.bottom-pane-social-item-fb:before {
+                        background-position: 11px 5px;
                     }
-                    .bottom-pane-gp {
-                        padding: 13px 11px 11px 13px;
-                        background: #FFF;
-                        &:before {
-                            width: 19px;
-                            height: 17px;
-                            background-position: 0 0;
-                        }
+                    &.bottom-pane-social-item-tw:before {
+                        background-position: -2px 8px;
                     }
-                    .bottom-pane-in {
-                        padding: 13px 10px 11px 13px;
-                        background: #FFF;
-                        &:before {
-                            width: 18px;
-                            height: 19px;
-                            background-position: 0 0;
-                        }
+                    &.bottom-pane-social-item-gp:before {
+                        background-position: -23px 9px;
                     }
-                    .bottom-pane-hz {
-                        padding: 13px 10px 11px 13px;
-                        background: #FFF;
-                        &:before {
-                            width: 20px;
-                            height: 8px;
-                            background-position: 0 0;
-                        }
+                    &.bottom-pane-social-item-in:before {
+                        background-position: -43px 8px;
+                    }
+                    &.bottom-pane-social-item-hz:before {
+                        background-position: -63px 11px;
                     }
                 }
             }
